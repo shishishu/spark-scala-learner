@@ -1,3 +1,0 @@
-Manifest-Version: 1.0
-Main-Class: com.learner.functions.Tutorial_01_CreateDataFrameFromTuple
-

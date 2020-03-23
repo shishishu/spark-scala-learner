@@ -15,4 +15,15 @@
         <hadoop.version>2.8.5</hadoop.version>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_2.11</artifactId>
+            <version>${spark.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+
+
 </project>

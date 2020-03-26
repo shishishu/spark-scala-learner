@@ -8,7 +8,7 @@ object Tutorial_02_GetDataFrameColumnNames extends App with Context {
     .toDF(colNames = "Donut Name", "Price")
 
   val columnNames: Array[String] = df.columns
-  columnNames.foreach(name => println("$name"))
+  columnNames.foreach(name => println(s"$name"))
   // https://www.cnblogs.com/1zhk/p/4710580.html
   // foreach用于遍历集合，而map用于映射（转换）集合到另一个集合
   // https://blog.csdn.net/bowenlaw/article/details/98633292

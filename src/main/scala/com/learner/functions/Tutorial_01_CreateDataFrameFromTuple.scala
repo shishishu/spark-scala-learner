@@ -7,6 +7,9 @@ object Tutorial_01_CreateDataFrameFromTuple extends App with Context {
   // A Seq is an Iterable that has a defined order of elements. Sequences provide a method apply() for indexing, ranging from 0 up to the length of the sequence. Seq has many subclasses including Queue, Range, List, Stack, and LinkedList.
   // A List is a Seq that is implemented as an immutable linked list. It's best used in cases with last-in first-out (LIFO) access patterns.
 
+  // https://www.cnblogs.com/wonglu/p/6044839.html
+  // Spark与Pandas中DataFrame对比（详细）
+
   val df = sparkSession
     .createDataFrame(donuts)
     .toDF(colNames = "Donut Name", "Price")

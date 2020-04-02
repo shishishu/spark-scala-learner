@@ -1,11 +1,10 @@
 package com.learner.dataframe
-import com.learner.functions.Tutorial_14_DataFrameStringFunctions.sparkSession
 import com.learner.utils.Context
 import org.apache.spark.sql.functions._
-import sparkSession.sqlContext.implicits._
-
 
 object DataFrame_Tutorial_01 extends App with Context {
+
+  import sparkSession.sqlContext.implicits._
 
   // create dataframe from reading a CSV file
   val dfTags = sparkSession

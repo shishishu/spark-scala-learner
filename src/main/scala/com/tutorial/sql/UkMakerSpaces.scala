@@ -40,7 +40,7 @@ object UkMakerSpaces extends Context {
     println("=== Group by Region ===")
     dfJoined
       .groupBy("Region")
-      .count().as("cal_count")
+      .count()
       .show(10)
   }
 

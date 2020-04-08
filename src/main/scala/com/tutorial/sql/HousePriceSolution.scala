@@ -2,7 +2,6 @@ package com.tutorial.sql
 
 import com.tutorial.commons.Context
 import org.apache.spark.sql.functions._
-import org.apache.spark.sql.types.DecimalType
 
 object HousePriceSolution extends Context {
 

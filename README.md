@@ -1,6 +1,8 @@
 ## spark-scala-learner
 
-Main reference: [learn-spark](https://github.com/nadimbahadoor/learn-spark)
+Main reference: 
+- [nadimbahadoor / learn-spark](https://github.com/nadimbahadoor/learn-spark)
+- [jleetutorial / scala-spark-tutorial](https://github.com/jleetutorial/scala-spark-tutorial)
 
 Highlights: 
 - add comment on specific functions and tricks

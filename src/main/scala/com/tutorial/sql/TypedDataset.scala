@@ -1,11 +1,6 @@
 package com.tutorial.sql
 
 import com.tutorial.commons.Context
-import org.apache.spark.sql.Encoder
-import org.apache.spark.sql.catalyst.encoders.ExpressionEncoder
-
-// keep outside object
-case class Response(country: String, occupation: String, salary_midpoint: Option[Double], age_midpoint: Option[Double])
 
 object TypedDataset extends Context {
 

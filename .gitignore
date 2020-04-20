@@ -4,3 +4,4 @@
 out/*
 target/*
 spark-warehouse/*
+src/main/out/*

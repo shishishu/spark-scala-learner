@@ -6,6 +6,8 @@ object GroupByKeyVsReduceByKey extends Context {
 
   def main(args: Array[String]) {
 
+    // https://www.cnblogs.com/zzhangyuhang/p/9001523.html
+    // 【spark】常用转换操作：reduceByKey和groupByKeygit
     val words = List("one", "two", "two", "three", "three", "three")
     val wordsPairRdd = sc
       .parallelize(words)

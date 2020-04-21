@@ -1,4 +1,4 @@
-package com.tutorial.pairRdd.create
+package com.tutorial.pairRdd
 
 import com.tutorial.commons.Context
 

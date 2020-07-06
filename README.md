@@ -3,6 +3,7 @@
 Main reference: 
 - [nadimbahadoor / learn-spark](https://github.com/nadimbahadoor/learn-spark)
 - [jleetutorial / scala-spark-tutorial](https://github.com/jleetutorial/scala-spark-tutorial)
+- [apache / spark](https://github.com/apache/spark/tree/master/examples/src/main/scala/org/apache/spark/examples)
 
 Highlights: 
 - add comment on specific functions and tricks

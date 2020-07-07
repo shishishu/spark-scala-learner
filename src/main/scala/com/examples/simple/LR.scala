@@ -5,7 +5,7 @@ import scala.math.exp
 
 import breeze.linalg.DenseVector
 
-object SparkLR extends Context {
+object LR extends Context {
 
   val N = 10000  // Number of data points
   val D = 10   // Number of dimensions

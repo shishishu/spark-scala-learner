@@ -3,7 +3,7 @@ package com.examples.simple
 import com.tutorial.commons.Context
 import scala.math.random
 
-object SparkPi extends Context {
+object Pi extends Context {
 
   def main(args: Array[String]): Unit ={
     val slices = if (args.length > 0) args(0).toInt else 2

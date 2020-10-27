@@ -3,6 +3,13 @@ package com.examples.simple
 import breeze.linalg.{DenseVector, Vector, squaredDistance}
 import com.tutorial.commons.Context
 
+/**
+ * K-means clustering.
+ *
+ * This is an example implementation for learning how to use Spark. For more conventional use,
+ * please refer to org.apache.spark.ml.clustering.KMeans.
+ */
+
 object KMeans extends Context {
 
   def parseVector(line: String): Vector[Double] = {

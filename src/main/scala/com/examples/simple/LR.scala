@@ -5,6 +5,14 @@ import scala.math.exp
 
 import breeze.linalg.DenseVector
 
+/**
+ * Logistic regression based classification.
+ * Usage: SparkLR [partitions]
+ *
+ * This is an example implementation for learning how to use Spark. For more conventional use,
+ * please refer to org.apache.spark.ml.classification.LogisticRegression.
+ */
+
 object LR extends Context {
 
   val N = 10000  // Number of data points
